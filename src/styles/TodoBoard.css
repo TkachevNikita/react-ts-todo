@@ -1,0 +1,18 @@
+/* .kanban__section:not(:last-child) {
+    margin-right: 10px;
+} */
+
+.board__title {
+    color: #4D4D4D;
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.kanban__section {
+    padding: 15px;
+    background-color: #F3F4F4;
+}
