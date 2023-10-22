@@ -4,7 +4,7 @@ import '../styles/TodoBoard.css'
 import { mockData } from '../mocks/mocks'
 import { TodoItem } from './TodoItem'
 
-export const TodoBoard = () => {
+export const KanbanBoard = () => {
 
     const [data, setData] = useState(mockData);
 
@@ -70,7 +70,7 @@ export const TodoBoard = () => {
                                                             ...provided.draggableProps.style,
                                                             opacity: snapshot.isDragging ? '0.5' : '1'
                                                         }}
-                                                        className="todo"
+                                                        className="todo__container"
                                                     >
                                                         <TodoItem item={item}/>
                                                     </div>

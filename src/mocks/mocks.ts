@@ -22,5 +22,23 @@ export const mockData: IBoard[] = [
             { executor: {name: 'Aidimir'}, id: uuidv4(), title: 'asp.net' }
         ]
     },
+    {
+        title: 'На оценке',
+        id: uuidv4(),
+        color: '#F0E7F6',
+        items: [
+            { executor: {name: 'Olya'}, id: uuidv4(), title: 'spring' },
+            { executor: {name: 'Ekaterina'}, id: uuidv4(), title: 'asp.net' }
+        ]
+    },
+    {
+        title: 'Просрочены',
+        id: uuidv4(),
+        color: '#FFDCE0',
+        items: [
+            { executor: {name: 'Timofey'}, id: uuidv4(), title: 'spring' },
+            { executor: {name: 'Ruslan'}, id: uuidv4(), title: 'asp.net' }
+        ]
+    },
 
 ]

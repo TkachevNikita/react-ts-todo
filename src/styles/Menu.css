@@ -1,0 +1,32 @@
+.menu {
+    position: static;
+}
+
+.menu__container {
+    background-color: #F6F8F9;
+    height: 100vh;
+    padding: 20px;
+}
+
+.menu__item-descr {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.menu__item {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.menu__item-svg {
+    transform: translateY(3px);
+}

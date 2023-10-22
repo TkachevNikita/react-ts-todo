@@ -8,6 +8,11 @@ interface TodoItemProps {
 
 export const TodoItem: FC<TodoItemProps> = ({item}) => {
   return (
-        <div className="todo">{item.title}</div>
+        <div 
+          className="todo"
+          onClick={e => {console.log(e.target)}}
+        >
+          {item.title}
+        </div>
   )
 }
