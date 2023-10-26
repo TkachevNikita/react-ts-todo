@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import { Header } from '../components/Header'
-import { Menu } from '../components/Menu'
-import '../styles/AppLayout.css'
+import { Header } from '../apps/components/Header'
+import { Menu } from '../apps/components/Menu'
+import './styles/AppLayout.css'
 
 export const AppLayout = () => {
   return (

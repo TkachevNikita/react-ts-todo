@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { ITodo } from '../interfaces/ITodo';
-import '../styles/TodoItem.css'
+import './styles/TodoItem.css'
 
 interface TodoItemProps {
     item: ITodo;

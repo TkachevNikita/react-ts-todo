@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'
-import '../styles/TodoBoard.css'
+import './styles/TodoBoard.css'
 import { mockData } from '../mocks/mocks'
 import { TodoItem } from './TodoItem'
 
